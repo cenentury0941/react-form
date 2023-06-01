@@ -1,0 +1,23 @@
+form, .FormControl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 39vw;
+    box-shadow: 0px 0px 2vh 0.1vh black;
+    background-color: white; 
+    border-radius: 0.25cm;
+    color: black;
+    margin-left: 15vw;
+}
+
+.ControlContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    margin: 1vw;
+    width: 75%
+}
